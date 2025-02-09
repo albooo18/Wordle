@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    background: linear-gradient(to top right,red,yellow);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.options select{
+    appearance: none;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 10px;
+    background:transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+.options select>option{
+    color: black;
+}
+
+.options.hide{
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.options button{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 50px white;
+    box-shadow: 0px 0px 5px orange;
+    border: 1px solid orange;
+}    
+
+.options button:active{
+    scale: 0.95;
+}
+
+.options button:hover{
+    background-color: rgb(86, 71, 71);
+    color: white;
+    transition: .2s ease;
+}
+
+.word{
+    height: 70px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.letter{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.notes ul{
+    margin: 10px 0px;
+}
+
+.notes{
+    color: white;
+    padding: 10px 0px;
+}
+
+.gameover{
+    display: none;
+}
+
+.gameOverBtn{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 50px white;
+    box-shadow: 0px 0px 5px orange;
+    border: 1px solid orange;
+}
+
+.gameOverBtn:active{
+    scale: 0.95;
+}
+
+.gameOverBtn:hover{
+    background-color: rgb(86, 71, 71);
+    color: white;
+    transition: .2s ease;
+}
+
+.gamewon{
+    display: none;
+}
+
+.gameWonBtn{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 50px white;
+    box-shadow: 0px 0px 5px orange;
+    border: 1px solid orange;
+}
+
+.gameWonBtn:active{
+    scale: .95;
+}
+
+.gameWonBtn:hover{
+    background-color: rgb(86, 71, 71);
+    color: white;
+    transition: .2s ease;
+}

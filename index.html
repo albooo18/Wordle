@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="options">
+            <div class="notes">
+                <h1>WORDLE</h1>
+                <h2>Instructions</h2>
+                <ul>
+                    <li>You have 5 total tries or else you lose</li>
+                    <li>You win once you guess the word</li>
+                </ul>
+                
+            </div>
+            <select name="choose" id="choose">
+                <option value="4">4 Letter Words</option>
+                <option value="5">5 Letter Words</option>
+                <option value="6">6 Letter Words</option>
+            </select>
+            <button type="button" id="enter">Start</button>
+        </div>
+        <!-- <div class="word">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+        </div> -->
+    </div>
+    <div class="gameover">
+        <h1 style="color: white;">You lose!</h1>
+        <button class="gameOverBtn">Try Again</button>
+    </div>
+    <div class="gamewon">
+        <h1 style="color: white;">You win!!!</h1>
+        <button class="gameWonBtn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
