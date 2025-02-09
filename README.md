@@ -1,1 +1,1 @@
-"# Wordle" 
+"Simple Wordle game" 
